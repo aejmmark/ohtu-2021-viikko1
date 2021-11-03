@@ -70,4 +70,4 @@ class TestVarasto(unittest.TestCase):
     def test_str_palauttaa_oikean_tekstin(self):
         text = self.varasto.__str__()
         format_list = [self.varasto.saldo, self.varasto.paljonko_mahtuu()]
-        self.assertEqual(text, "saldo! = {}, vielä tilaa {}".format(*format_list))
+        self.assertEqual(text, "saldo = {}, vielä tilaa {}".format(*format_list))

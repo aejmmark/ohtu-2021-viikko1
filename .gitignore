@@ -4,6 +4,7 @@
 .coverage
 .pytest_cache
 htmlcov
+.coveragerc
 coverage.xml
 __pycache__
 *.py[cod]
